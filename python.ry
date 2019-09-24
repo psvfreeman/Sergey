@@ -1,5 +1,0 @@
-with f as open("python_test.py")
-	while True:
-		 s=f.readline()
-		 import re
-		 sn = re.sub('^\s{2,5}',' '*4,sn)
